@@ -251,6 +251,7 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #6495ED 0%, #40BFFF 100%);
+    filter: blur(4px)
 }
 
 .text-color {
