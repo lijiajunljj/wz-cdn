@@ -1,4 +1,4 @@
-﻿var getExplorer = (function () {
+var getExplorer = (function () {
     var explorer = window.navigator.userAgent,
         compare = function (s) { return (explorer.indexOf(s) >= 0); },
         ie11 = (function () { return ("ActiveXObject" in window) })();
@@ -24,7 +24,7 @@ if (getExplorer == 'ie') {
 
 if (getExplorer == 'Edge') {
 	if(version.indexOf("Windows NT 10")!=-1){
-		    console.log("检测到现在使用的是win10系统且正在使用Edge，不做跳转");
+		    console.log("一个彩蛋：我单推鹿乃（指花寄女子寮中的鹿乃www）");
 }else {
     window.location.href='https://lijiajunljj.github.io/ie';
       }
