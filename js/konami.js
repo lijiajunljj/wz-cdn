@@ -149,6 +149,3 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
                 window.Konami = Konami;
         }
 }
-
-
-var easter_egg = new Konami('https://likaijunlkj.github.io/base64/');
